@@ -9,3 +9,5 @@ valor_final = st.number_input("Ingrese el valor final")
 
 lista_numeros = list(range(int(valor_inicial), int(valor_final)))
 st.write(lista_numeros)
+
+modulos = st.sidebar.selectbox("Seleccione un modulo", ["Modulo Lista","Moduelo Arreglos","Modulo Funciones"])
