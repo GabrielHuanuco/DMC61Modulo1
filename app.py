@@ -4,8 +4,8 @@ st.title("Especializaciòn Python for Analytics")
 st.sidebar.title("Parámetros")
 st.write("Elaborado por: Fabricio Huanuco")
 
-modulos = st.sidebar.selectbox("Seleccione un modulo", ["Modulo Lista","Modulo Arreglos","Modulo Funciones"])
-if modulos == "Modulo Lista":
+modulos = st.sidebar.selectbox("Seleccione un modulo", ["Modulo Listas","Modulo Arreglos","Modulo Funciones"])
+if modulos == "Modulo Listas":
   st.write("Bienvenido al módulo Listas")
   valor_inicial = st.number_input("Ingrese el valor inicial")
   valor_final = st.number_input("Ingrese el valor final")
