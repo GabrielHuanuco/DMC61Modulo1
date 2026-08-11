@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Especializaciòn Python for Analytics")
+st.title("Especialización Python for Analytics")
 st.sidebar.title("Parámetros")
 st.write("Elaborado por: Fabricio Huanuco")
 
