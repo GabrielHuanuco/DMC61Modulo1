@@ -3,7 +3,8 @@ import streamlit as st
 st.title("Especialización Python for Analytics")
 st.sidebar.title("Parámetros")
 st.write("Elaborado por: Fabricio Huanuco")
-st.image("Python_logo.png", width = 200)
+st.image("Python_logo.png", width = 300)
+st.sidebar.image("DMC_logo.png", width = 100)
 
 modulos = st.sidebar.selectbox("Seleccione un modulo", ["Modulo Listas","Modulo Arreglos","Modulo Funciones"])
 if modulos == "Modulo Listas":
