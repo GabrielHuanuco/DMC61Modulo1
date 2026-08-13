@@ -213,3 +213,7 @@ def disponibilidad_servicio(total_horas, horas_caida, mantenimientos_programados
 
     return max(disponibilidad_ajustada, 0)
 
+def interes_simple(monto, interes, tiempo_meses):
+  interes = monto * interes * (tiempo_meses/12)
+  return interes
+
