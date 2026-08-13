@@ -212,3 +212,4 @@ def disponibilidad_servicio(total_horas, horas_caida, mantenimientos_programados
     disponibilidad_ajustada = disponibilidad - penalizacion_pct
 
     return max(disponibilidad_ajustada, 0)
+
