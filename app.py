@@ -8,7 +8,7 @@ st.write("Elaborado por: Fabricio Huanuco")
 st.image("Python_logo.png", width = 300)
 st.sidebar.image("DMC_logo.png", width = 100)
 
-modulos = st.sidebar.selectbox("Seleccione un modulo", ["Modulo Listas","Modulo Arreglos","Modulo Funciones"])
+modulos = st.sidebar.selectbox("Seleccione un modulo", ["Modulo Listas","Modulo Arreglos","Modulo Funciones","Archivos"])
 if modulos == "Modulo Listas":
   st.write("Bienvenido al módulo Listas")
   valor_inicial = st.number_input("Ingrese el valor inicial")
@@ -20,6 +20,9 @@ elif modulos == "Modulo Arreglos":
   cantidad_elementos = st.slider("Seleccione la cantidad de elementos de su arreglo",1,100)
   cantidad_arreglo = np.arange(cantidad_elementos+1)
   st.write(cantidad_arreglo)
+
+elif modulos == "Archivos":
+  archivo = st.sidebar.file_uploader("Seleccione su archivo")
 
 else:
   st.write("Bienvenido al módulo de Funciones")
