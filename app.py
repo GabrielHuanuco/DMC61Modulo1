@@ -28,10 +28,10 @@ elif modulos == "Archivos":
     st.write("Su archivo ha sido cargado")
   else:
     st.write("Cargue su archivo")
-    if archivo.name.endswitch(".csv"):
+    if archivo.name.endswith(".csv"):
       datos = pd.read_csv(archivo)
       st.write(datos)
-    elif archivo.name.endswitch(".xlsx"):
+    elif archivo.name.endswith(".xlsx"):
       datos = pd.read_excel(archivo)
       st.write(datos)
     
